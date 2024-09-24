@@ -3,9 +3,10 @@
 **Fecha:** 24 de septiembre de 2024  
 **Institución:** Instituto Tecnológico de Tijuana  
 **Equipo:**  
-- Integrante 1: [Nombre Completo]  
-- Integrante 2: [Nombre Completo]  
-- Integrante 3: [Nombre Completo]  
+- Integrante 1: Garcia Cerrillo Angel Albino
+- Integrante 2: Ortega Jimenez Jordi Joel 
+- Integrante 3: Rosas Javier
+- Integrante 4: Panduro Eduardo
 
 ---
 
@@ -80,5 +81,5 @@ terminate(_Reason, _State) ->
 ```
 
 
-## Código del Proyecto
+## Código ejecutado
 [![asciicast](https://asciinema.org/a/4vJtbAe1crwMANCt1ho55JgLD.svg)](https://asciinema.org/a/4vJtbAe1crwMANCt1ho55JgLD)
