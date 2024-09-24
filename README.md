@@ -1,6 +1,6 @@
 # Todlist-erlang
 
-```
+```erlang
 %% Módulo de gestión de tareas usando GenServer.
 -module(task_manager).
 -behaviour(gen_server).
