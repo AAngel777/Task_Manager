@@ -1,7 +1,12 @@
 # Todlist-erlang
+# Aplicación de Gestión de Tareas
 
-```erlang
-%% Módulo de gestión de tareas usando GenServer.
+Este proyecto permite gestionar tareas mediante un servidor que utiliza GenServer para manejar el estado de las tareas. La aplicación permite agregar, eliminar y listar tareas en tiempo real.
+
+## Código del Proyecto
+
+### Módulo 1: El servidor de gestión de tareas
+```erl
 -module(task_manager).
 -behaviour(gen_server).
 
@@ -66,4 +71,3 @@ handle_cast(_Msg, State) ->
 terminate(_Reason, _State) ->
     ok.
 
-```
