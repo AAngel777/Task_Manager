@@ -6,7 +6,7 @@
 - Integrante 1: Garcia Cerrillo Angel Albino
 - Integrante 2: Ortega Jimenez Jordi Joel 
 - Integrante 3: Rosas Javier
-- Integrante 4: Panduro Eduardo
+- Integrante 4: Gonzalez Reyes Jesus Eduardo
 
 ---
 
@@ -79,7 +79,14 @@ handle_call(list_tasks, _From, State) ->
 terminate(_Reason, _State) ->
     ok.
 ```
-
-
+## Pasos para la ejecución
+1. Iniciar el servidor GenServer ejecutando el siguiente comando en el shell de Erlang:
+`{ok, Pid} = task_manager:start_link().`
+2. Agregar una tarea a la lista usando:
+`task_manager:add_task(Pid, "Mi primera tarea").`
+3. Elimina una tarea con:
+`task_manager:remove_task(Pid, "Mi primera tarea").`
+4. Listar tareas almacenadas:
+`task_manager:list_tasks(Pid).`
 ## Código ejecutado
 [![asciicast](https://asciinema.org/a/4vJtbAe1crwMANCt1ho55JgLD.svg)](https://asciinema.org/a/4vJtbAe1crwMANCt1ho55JgLD)
