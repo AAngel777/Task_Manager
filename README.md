@@ -77,3 +77,8 @@ handle_call(list_tasks, _From, State) ->
 % Finalizar el GenServer.
 terminate(_Reason, _State) ->
     ok.
+```
+
+
+## Código del Proyecto
+[![asciicast](https://asciinema.org/a/4vJtbAe1crwMANCt1ho55JgLD.svg)](https://asciinema.org/a/4vJtbAe1crwMANCt1ho55JgLD)
