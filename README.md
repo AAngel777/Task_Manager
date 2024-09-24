@@ -1,4 +1,3 @@
-# Todlist-erlang
 # Aplicación de Gestión de Tareas
 
 Este proyecto permite gestionar tareas mediante un servidor que utiliza GenServer para manejar el estado de las tareas. La aplicación permite agregar, eliminar y listar tareas en tiempo real.
